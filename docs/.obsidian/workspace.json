@@ -1,0 +1,219 @@
+{
+  "main": {
+    "id": "e97dfb136f3ee8f1",
+    "type": "split",
+    "children": [
+      {
+        "id": "81f4b5a959d12804",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "85e88e9359d87151",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Agents_Docs/What Log agent should We choose.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c6e849b2bbe69f0d",
+    "type": "split",
+    "children": [
+      {
+        "id": "0879f8aae0b8a193",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "45fc0897963fc63d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c7734bed03751192",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "13c575e4e0b79ab5",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "11e5c0a2c7b60c50",
+    "type": "split",
+    "children": [
+      {
+        "id": "dede2d9e4b3d5cc4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f9cc3b51bd13ca2f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Agents_Docs/What Log agent should We choose.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "db80c43cddfc5fe0",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Agents_Docs/What Log agent should We choose.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c805bae9e3af63c6",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "ec528f60768854df",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Agents_Docs/What Log agent should We choose.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "floating": {
+    "id": "03f3a53c5915b09c",
+    "type": "floating",
+    "children": [
+      {
+        "id": "8ea3bf3c5615ddec",
+        "type": "window",
+        "children": [
+          {
+            "id": "5f7c0f8e481bb489",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "191f76d92041fafe",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Agents_Docs/What Log agent should We choose.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 256,
+        "y": 8,
+        "width": 1024,
+        "height": 800,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "191f76d92041fafe",
+  "lastOpenFiles": [
+    "resources/Strimzi-Operator.jpg",
+    "resources/strimzi-operator-types.jpg",
+    "resources/compare.png",
+    "Agents_Docs/Why do we need logs.md",
+    "Agents_Docs/Logging Agents.md",
+    "Agents_Docs/What Log agent should We choose.md",
+    "resources/login.png",
+    "resources/workflow_jwt.png",
+    "Event_Sourcing/Architecture.md",
+    "Event_Sourcing/Key Concepts.md",
+    "Event_Sourcing/The Problems Event Sourcing Fix.md",
+    "Event_Sourcing/What is Event Sourcing.md",
+    "resources/Appache Cassandra.png",
+    "resources/Screenshot 2024-06-05 142845.png",
+    "resources/kafka.png",
+    "Agents_Docs/Difficulties of analyzing logs.md",
+    "resources/5LX2K.jpg",
+    "resources/k8s-operator.webp",
+    "rapport/Hadil PFE Report.pdf",
+    "rapport/quiz_Rules.pdf",
+    "rapport/Rapport_ELhassen-Ameni_SNI_SS1.pdf",
+    "rapport/dridi nassim (1).pdf",
+    "rapport/PFE_V0 (2).pdf",
+    "rapport/Rapport_Mohamed_Bilel_BESBES_NCA_SS1 (2) (1).pdf",
+    "rapport/dridi nassim.pdf",
+    "rapport",
+    "New folder",
+    "resources/Hadil PFE Report.pdf",
+    "resources/messge queu.png",
+    "Untitled.md"
+  ]
+}

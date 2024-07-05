@@ -1,0 +1,41 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: backend-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: backend
+  template:
+    metadata:
+      labels:
+        app: backend
+    spec:
+      containers:
+        - name: backend
+          image: firasfrigui/pfe_back
+          env:
+            - name: CASSANDRA_ENDPOINT
+              value: "cassandra"
+          ports:
+            - containerPort: 8080
+          stdin: true # Set this to true to keep stdin open
+          tty: true
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: back-service
+  annotations:
+    service.beta.kubernetes.io/azure-load-balancer-internal: "true"
+  labels:
+    app: back-service
+spec:
+  type: LoadBalancer
+  ports:
+    - port: 8080
+      targetPort: 8080
+
+  selector:
+    app: backend

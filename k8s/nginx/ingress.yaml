@@ -1,0 +1,25 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: back-service-ingress
+  namespace: frigui-dev # NGINX Ingress Controller's namespace
+spec:
+  ingressClassName: nginx
+  rules:
+    - host: 10.3.16.155
+      http:
+        paths:
+          - path: /back
+            pathType: Prefix
+            backend:
+              service:
+                name: back-service # Fully qualified name including the namespace
+                port:
+                  number: 8080
+          - path: /front
+            pathType: Prefix
+            backend:
+              service:
+                name: front-service # Fully qualified name including the namespace
+                port:
+                  number: 3000
